@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQmNN7uOPBKKtNjuMNuBsDdfO4ukNTYaAnaQ&s");    
+}
+
+.container{
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+h2{
+    background-color: #00B8D4;
+    color: white;
+    padding: 1rem;
+    font-size: 2rem;
+}
+.currency-container{
+    min-height: 40%;
+    min-width: 50%;
+    padding: 1rem;
+    border: 3px solid #333;
+    background-color: white;
+    color: black;    
+    border-radius: 1rem;
+}
+
+.currency-container button{
+    background-color:limegreen;
+    color: white;
+    font-size: 1rem;
+    padding: 1rem;
+    width: 100%;
+    border: 1px solid #333;
+    border-radius: 10px;
+    margin: 1rem 0rem;
+}
+
+.currency-dropdown-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 5rem;
+    margin: 1rem 0rem;
+    
+}
+
+.currency-dropdown{
+    width: 50%;
+}
+.currency-selector{
+    display: flex;
+    gap:10px;
+    width: 50%;
+    border: 1px solid #333;
+    border-radius: 1rem;
+}
+
+select{
+    height: 3rem;
+    width: 40%;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+  
+}
+ img{
+    margin-left: 1rem;
+    height: 2rem;
+    width: 2.2rem;
+    margin-top: 0.5rem;
+ }
+
+ input{
+    height: 2opx;
+    width: 78%;
+    outline: none;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    margin-left: 10px;
+ }
+
+ span{
+    font-size: 1.1rem;
+ }
